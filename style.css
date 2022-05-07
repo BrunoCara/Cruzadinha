@@ -2,6 +2,7 @@ body{
     background-color: gray;
     padding: 0;
     margin: 0;
+   
 }
 
 .tela_inicial{
@@ -23,20 +24,23 @@ input {
     height: 26px;
     padding: 0;
     text-transform: uppercase;
-    font-size: 14px;
+   
     text-align: center;
     border: solid #02124e;
     background-color: #b0efeb;
+    border-radius:  10%;
+    box-shadow: #02124e79 2px 2px;
+    font-size: 22px;
 }
 
 input::placeholder {
-    font-size: 12px;
+    font-size: 13px;
     color: white;
 }
 
 input:disabled {
     color: white;
-    background-color: #f21170;
+    background-color: #f2116f50;
 }
 
 td {
@@ -49,7 +53,7 @@ td {
     
 }
 
-.Desativado {
+/* .Desativado {
     background-color: #00000000 !important;
    border: solid #00000000  !important;
-} 
+}  */
