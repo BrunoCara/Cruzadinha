@@ -23,7 +23,7 @@ input {
     height: 26px;
     padding: 0;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     border: solid #02124e;
     background-color: #b0efeb;
@@ -42,6 +42,11 @@ input:disabled {
 td {
     float: left;
 
+}
+
+.espaco{
+    background-color: #ecbd39 !important;
+    
 }
 
 .Desativado {
