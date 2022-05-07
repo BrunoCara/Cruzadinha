@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruzadinha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="tela_inicial">
+    <div class="div_principal">
+        <table>
+            <tr>
+                <!-- Linha 0 -->
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='numero' disabled placeholder="8↓"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+            </tr>
+            <tr>
+                <!-- Linha 1 -->
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo1' onkeyup="verifica(7)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class="Desativado" disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+
+            </tr>
+            <tr>
+                <!-- Linha 2 -->
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo2' onkeyup="verifica(7)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+
+            </tr>
+            <tr>
+                <!-- Linha 3 -->
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo3' onkeyup="verifica(7)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+
+            </tr>
+            <tr>
+                <!-- Linha 4 -->
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo4' onkeyup="verifica(7)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='numero' disabled placeholder="12↓"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+            </tr>
+            <tr>
+                <!-- Linha 5 -->
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo5' onkeyup="verifica(7)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo16' onkeyup="verifica(11)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+
+            </tr>
+            <tr>
+                <!-- Linha 6 -->
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='numero' disabled placeholder="13→"></td>
+                <td><input type="text" id='Campo6' onkeyup="verifica(7); verifica(12)" maxlength="1"></td>
+                <td><input type="text" id='Campo15' onkeyup="verifica(12)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo17' onkeyup="verifica(11)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+            </tr>
+            <tr>
+                <!-- Linha 7 -->
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo7' onkeyup="verifica(7)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo18' onkeyup="verifica(11)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='numero' disabled placeholder="10↓"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+            </tr>
+            <tr>
+                <!-- Linha 8 -->
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class="espaco" disabled placeholder="*"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='numero' disabled placeholder="16→"></td>
+                <td><input type="text" id='Campo23' onkeyup="verifica(15)" maxlength="1"></td>
+                <td><input type="text" id='Campo24' onkeyup="verifica(15)" maxlength="1"></td>
+                <td><input type="text" id='Campo19' onkeyup="verifica(11); verifica(15)" maxlength="1"></td>
+                <td><input type="text" id='Campo25' onkeyup="verifica(15)" maxlength="1"></td>
+                <td><input class='espaco' disabled placeholder="*"></td>
+                <td><input type="text" id='Campo26' onkeyup="verifica(15); verifica(9)" maxlength="1"></td>
+                <td><input type="text" id='Campo27' onkeyup="verifica(15)" maxlength="1"></td>
+                <td><input type="text" id='Campo28' onkeyup="verifica(15)" maxlength="1"></td>
+                <td><input type="text" id='Campo29' onkeyup="verifica(15)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+            </tr>
+            <tr>
+                <!-- Linha 9 -->
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='numero' disabled placeholder="11→"></td>
+                <td><input type="text" id='Campo31' onkeyup="verifica(10)" maxlength="1"></td>
+                <td><input type="text" id='CampoAUX3' onkeyup="verifica(10)" maxlength="1"></td>
+                <td><input type="text" id='Campo8' onkeyup="verifica(7); verifica(10)" maxlength="1"></td>
+                <td><input type="text" id='Campo32' onkeyup="verifica(10)" maxlength="1"></td>
+                <td><input type="text" id='Campo33' onkeyup="verifica(10)" maxlength="1"></td>
+                <td><input type="text" id='Campo34' onkeyup="verifica(10)" maxlength="1"></td>
+                <td><input type="text" id='Campo35' onkeyup="verifica(10)" maxlength="1"></td>
+                <td><input class='espaco' disabled placeholder="*"></td>
+                <td><input type="text" id='Campo36' onkeyup="verifica(10)" maxlength="1"></td>
+                <td><input type="text" id='Campo37' onkeyup="verifica(10)" maxlength="1"></td>
+                <td><input type="text" id='Campo30' onkeyup="verifica(9); verifica(10)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='numero' disabled placeholder="5↓"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+            </tr>
+            <tr>
+                <!-- Linha 10 -->
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo9' onkeyup="verifica(7)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo20' onkeyup="verifica(11)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo38' onkeyup="verifica(5)" maxlength="1"></td>
+                <td><input class='numero' disabled placeholder="↶6"></td>
+                <td><input type="text" id='CampoAUX' onkeyup="verifica(4)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+            </tr>
+            <tr>
+                <!-- Linha 11 -->
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class="espaco" disabled placeholder="*"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='numero' disabled placeholder="1→"></td>
+                <td><input type="text" id='Campo43' onkeyup="verifica(0)" maxlength="1"></td>
+                <td><input type="text" id='Campo44' onkeyup="verifica(0)" maxlength="1"></td>
+                <td><input type="text" id='Campo21' onkeyup="verifica(11); verifica(0)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo39' onkeyup="verifica(5)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='CampoAUX2' onkeyup="verifica(4)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+            </tr>
+            <tr>
+                <!-- Linha 12 -->
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo10' onkeyup="verifica(7)" maxlength="1"></td>
+                <td><input class='numero' disabled placeholder="7→"></td>
+                <td><input type="text" id='Campo45' onkeyup="verifica(6)" maxlength="1"></td>
+                <td><input type="text" id='Campo46' onkeyup="verifica(6)" maxlength="1"></td>
+                <td><input type="text" id='Campo47' onkeyup="verifica(6)" maxlength="1"></td>
+                <td><input type="text" id='Campo22' onkeyup="verifica(11); verifica(6)" maxlength="1"></td>
+                <td><input type="text" id='Campo48' onkeyup="verifica(6)" maxlength="1"></td>
+                <td><input class='numero' disabled placeholder="4→"></td>
+                <td><input type="text" id='Campo40' onkeyup="verifica(5); verifica(3)" maxlength="1"></td>
+                <td><input type="text" id='Campo49' onkeyup="verifica(3)" maxlength="1"></td>
+                <td><input type="text" id='Campo50' onkeyup="verifica(3); verifica(4)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+            </tr>
+            <tr>
+                <!-- Linha 13 -->
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo11' onkeyup="verifica(7)" maxlength="1"></td>
+                <td><input class='numero' disabled placeholder="15→ "></td>
+                <td><input type="text" id='Campo52' onkeyup="verifica(14)" maxlength="1"></td>
+                <td><input type="text" id='Campo53' onkeyup="verifica(14); verifica(1)" maxlength="1"></td>
+                <td><input type="text" id='Campo54' onkeyup="verifica(14)" maxlength="1"></td>
+                <td><input type="text" id='Campo55' onkeyup="verifica(14)" maxlength="1"></td>
+                <td><input class="espaco" disabled placeholder="*"></td>
+                <td><input type="text" id='Campo56' onkeyup="verifica(14)" maxlength="1"></td>
+                <td><input type="text" id='Campo41' onkeyup="verifica(5); verifica(4); verifica(14)" maxlength="1"></td>
+                <td><input type="text" id='Campo57' onkeyup="verifica(14)" maxlength="1"></td>
+                <td><input type="text" id='Campo58' onkeyup="verifica(14)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+            </tr>
+            <tr>
+                <!-- Linha 14 -->
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='numero' disabled placeholder="14↓"></td>
+                <td><input type="text" id='Campo12' onkeyup="verifica(7)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo59' onkeyup="verifica(1)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='numero' disabled placeholder="9→"></td>
+                <td><input type="text" id='Campo61' onkeyup="verifica(8)" maxlength="1"></td>
+                <td><input type="text" id='Campo42' onkeyup="verifica(5); verifica(4); verifica(8)" maxlength="1"></td>
+                <td><input type="text" id='Campo62' onkeyup="verifica(8)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+            </tr>
+            <tr>
+                <!-- Linha 15 -->
+                <td><input class='numero' disabled placeholder="3→"></td>
+                <td><input type="text" id='Campo63' onkeyup="verifica(2)" maxlength="1"></td>
+                <td><input type="text" id='Campo64' onkeyup="verifica(2)" maxlength="1"></td>
+                <td><input type="text" id='Campo65' onkeyup="verifica(2)" maxlength="1"></td>
+                <td><input type="text" id='Campo66' onkeyup="verifica(2); verifica(13)" maxlength="1"></td>
+                <td><input type="text" id='Campo13' onkeyup="verifica(7); verifica(2)" maxlength="1"></td>
+                <td><input type="text" id='Campo67' onkeyup="verifica(2)" maxlength="1"></td>
+                <td><input type="text" id='Campo68' onkeyup="verifica(2)" maxlength="1"></td>
+                <td><input type="text" id='Campo60' onkeyup="verifica(1); verifica(2)" maxlength="1"></td>
+                <td><input type="text" id='Campo69' onkeyup="verifica(2)" maxlength="1"></td>
+                <td><input type="text" id='Campo70' onkeyup="verifica(2)" maxlength="1"></td>
+                <td><input type="text" id='Campo71' onkeyup="verifica(2)" maxlength="1"></td>
+                <td><input type="text" id='Campo72' onkeyup="verifica(2)" maxlength="1"></td>
+                <td><input type="text" id='Campo51' onkeyup="verifica(4);verifica(2)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+            </tr>
+            <tr>
+                <!-- Linha 16 -->
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input type="text" id='Campo73' onkeyup="verifica(13)" maxlength="1"></td>
+                <td><input type="text" id='Campo14' onkeyup="verifica(7)" maxlength="1"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='numero' disabled placeholder="2↑"></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+                <td><input class='Desativado' disabled></td>
+            </tr>
+            <tr>
+        </table>
+    </div>
+
+</section>
+</body>
+</html>
