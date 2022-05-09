@@ -1,7 +1,97 @@
 function verifica(Numero) {
     var num = Numero
     if (num == 0) {
-        var CPU = (Campo43.value + Campo44.value + Campo21.value).toUpperCase();
+        var ADDRESSBUS = (Campo1.value + Campo2.value + Campo3.value + Campo4.value + Campo5.value +
+            Campo6.value + Campo7.value + Campo9.value + Campo10.value + Campo11.value).toUpperCase();
+        if (ADDRESSBUS == 'ADDRESSBUS') {
+            Campo1.disabled = true;
+            Campo2.disabled = true;
+            Campo3.disabled = true;
+            Campo4.disabled = true;
+            Campo5.disabled = true;
+            Campo6.disabled = true;
+            Campo7.disabled = true;
+            Campo9.disabled = true;
+            Campo10.disabled = true;
+            Campo11.disabled = true;
+
+            Campo1.style = "border: solid #fa9905;"
+            Campo2.style = "border: solid #fa9905;"
+            Campo3.style = "border: solid #fa9905;"
+            Campo4.style = "border: solid #fa9905;"
+            Campo5.style = "border: solid #fa9905;"
+            Campo6.style = "border: solid #fa9905;"
+            Campo7.style = "border: solid #fa9905;"
+            Campo9.style = "border: solid #fa9905;"
+            Campo10.style = "border: solid #fa9905;"
+            Campo11.style = "border: solid #fa9905;"
+
+
+            let c1 = document.getElementById('Campo1')
+            if (c1 === document.activeElement) {
+                if (Campo1.value.match(interval)) {
+                    document.getElementById("Campo2").focus()
+                }
+            }
+    
+            let c2 = document.getElementById('Campo2')
+            if (c2 === document.activeElement) {
+                if (Campo2.value.match(interval)) {
+                    document.getElementById("Campo3").focus()
+                }
+            }
+    
+            let c3 = document.getElementById('Campo3')
+            if (c3 === document.activeElement) {
+                if (Campo3.value.match(interval)) {
+                    document.getElementById("Campo4").focus()
+                }
+            }
+            
+            
+            let c4 = document.getElementById('Campo4')
+            if (c4 === document.activeElement) {
+                if (Campo4.value.match(interval)) {
+                    document.getElementById("Campo5").focus()
+                }
+            }
+
+            let c5 = document.getElementById('Campo5')
+            if (c5 === document.activeElement) {
+                if (Campo5.value.match(interval)) {
+                    document.getElementById("Campo6").focus()
+                }
+            }
+
+            let c6 = document.getElementById('Campo6')
+            if (c6 === document.activeElement) {
+                if (Campo6.value.match(interval)) {
+                    document.getElementById("Campo7").focus()
+                }
+            }
+
+            let c7 = document.getElementById('Campo7')
+            if (c7 === document.activeElement) {
+                if (Campo7.value.match(interval)) {
+                    document.getElementById("Campo9").focus()
+                }
+            }
+
+            let c9 = document.getElementById('Campo9')
+            if (c9 === document.activeElement) {
+                if (Campo9.value.match(interval)) {
+                    document.getElementById("Campo10").focus()
+                }
+            }
+
+            let c10 = document.getElementById('Campo10')
+            if (c10 === document.activeElement) {
+                if (Campo10.value.match(interval)) {
+                    document.getElementById("Campo11;U").focus()
+                }
+            }
+
+        /* var CPU = (Campo43.value + Campo44.value + Campo21.value).toUpperCase();
         if (CPU == 'CPU') {
             Campo43.disabled = true;
             Campo44.disabled = true;
@@ -11,52 +101,54 @@ function verifica(Numero) {
             Campo21.style = 'border: solid #fa9905;';
             P1.style = 'color: #9acd32';
         }
+         */
     }
     else if (num == 1) {
-        var ULA = (Campo53.value + Campo59.value + Campo60.value).toUpperCase();
+        var REGISTRADORES = (Campo4.value + Campo15.value + Campo17.value + Campo19.value + Campo22.value +
+            Campo25.value + Campo29.value + Campo35.value + Campo38.value +
+            Campo44.value + Campo49.value + Campo59.value + Campo66.value).toUpperCase();
+        if (REGISTRADORES == 'REGISTRADORES') {
+            Campo4.disabled = true;
+            Campo15.disabled = true;
+            Campo17.disabled = true;
+            Campo19.disabled = true;
+            Campo22.disabled = true;            
+            Campo25.disabled = true;
+            Campo29.disabled = true;
+            Campo35.disabled = true;
+            Campo38.disabled = true;
+            Campo44.disabled = true;
+            Campo49.disabled = true;
+            Campo59.disabled = true;
+            Campo66.disabled = true;
+            Campo4.style = 'border: solid #fa9905;';
+            Campo15.style = 'border: solid #fa9905;';
+            Campo17.style = 'border: solid #fa9905;';
+            Campo19.style = 'border: solid #fa9905;';
+            Campo22.style = 'border: solid #fa9905;';
+            Campo25.style = 'border: solid #fa9905;';
+            Campo29.style = 'border: solid #fa9905;';
+            Campo35.style = 'border: solid #fa9905;';
+            Campo38.style = 'border: solid #fa9905;';
+            Campo44.style = 'border: solid #fa9905;';
+            Campo49.style = 'border: solid #fa9905;';
+            Campo59.style = 'border: solid #fa9905;';
+            Campo66.style = 'border: solid #fa9905;';
+            
+        }
+        /* var ULA = (Campo53.value + Campo59.value + Campo60.value).toUpperCase();
         if (ULA == 'ULA') {
             Campo53.disabled = true;
             Campo59.disabled = true;
             Campo60.disabled = true;
             Campo53.style = 'border: solid #fa9905;';
             Campo59.style = 'border: solid #fa9905;';
-            Campo60.style = 'border: solid #fa9905;';
+            Campo6  0.style = 'border: solid #fa9905;';
             P1.style = 'color: #9acd32';
-        }
+        } */
     }
     else if (num == 2) {
-        var REGISTRADORES = (Campo63.value + Campo64.value + Campo65.value + Campo66.value +
-            Campo13.value + Campo67.value + Campo68.value + Campo60.value + Campo69.value +
-            Campo70.value + Campo71.value + Campo72.value + Campo51.value).toUpperCase();
-        if (REGISTRADORES == 'REGISTRADORES') {
-            Campo63.disabled = true;
-            Campo64.disabled = true;
-            Campo65.disabled = true;
-            Campo66.disabled = true;
-            Campo13.disabled = true;
-            Campo67.disabled = true;
-            Campo68.disabled = true;
-            Campo60.disabled = true;
-            Campo69.disabled = true;
-            Campo70.disabled = true;
-            Campo71.disabled = true;
-            Campo72.disabled = true;
-            Campo51.disabled = true;
-            Campo63.style = "border: solid #fa9905;";
-            Campo64.style = "border: solid #fa9905;";
-            Campo65.style = "border: solid #fa9905;";
-            Campo66.style = "border: solid #fa9905;";
-            Campo13.style = "border: solid #fa9905;";
-            Campo67.style = "border: solid #fa9905;";
-            Campo68.style = "border: solid #fa9905;";
-            Campo60.style = "border: solid #fa9905;";
-            Campo69.style = "border: solid #fa9905;";
-            Campo70.style = "border: solid #fa9905;";
-            Campo71.style = "border: solid #fa9905;";
-            Campo72.style = "border: solid #fa9905;";
-            Campo51.style = "border: solid #fa9905;";
-            P3.style = 'color: #9acd32';
-        }
+        
     }
     else if (num == 3) {
         var RAM = (Campo40.value + Campo49.value + Campo50.value).toUpperCase();
@@ -178,32 +270,7 @@ function verifica(Numero) {
         }
     }
     else if (num == 10) {
-        var ADDRESSBUS = (Campo31.value + CampoAUX3.value + Campo8.value + Campo32.value + Campo33.value +
-            Campo34.value + Campo35.value + Campo36.value + Campo37.value + Campo30.value).toUpperCase();
-        if (ADDRESSBUS == 'ADDRESSBUS') {
-            Campo31.disabled = true;
-            CampoAUX3.disabled = true;
-            Campo8.disabled = true;
-            Campo32.disabled = true;
-            Campo33.disabled = true;
-            Campo34.disabled = true;
-            Campo35.disabled = true;
-            Campo36.disabled = true;
-            Campo37.disabled = true;
-            Campo30.disabled = true;
-
-            Campo31.style = "border: solid #fa9905;"
-            CampoAUX3.style = "border: solid #fa9905;"
-            Campo8.style = "border: solid #fa9905;"
-            Campo32.style = "border: solid #fa9905;"
-            Campo33.style = "border: solid #fa9905;"
-            Campo34.style = "border: solid #fa9905;"
-            Campo35.style = "border: solid #fa9905;"
-            Campo36.style = "border: solid #fa9905;"
-            Campo37.style = "border: solid #fa9905;"
-            Campo30.style = "border: solid #fa9905;"
-
-            P11.style = 'color: #9acd32';
+        
         }
     }
 
