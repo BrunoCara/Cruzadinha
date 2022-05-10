@@ -526,7 +526,10 @@ function verifica(Numero) {
         }
         let c41 = document.getElementById('Campo41')
         if (c41 === document.activeElement) {
-            if (Campo41.value.match(interval)) {
+            if (Campo41.value.match(interval) && Campo42.disabled == true) {
+                document.getElementById("Campo43").focus()
+            }
+            else if (Campo41.value.match(interval)) {
                 document.getElementById("Campo42").focus()
             }
         }
@@ -538,7 +541,10 @@ function verifica(Numero) {
         }
         let c43 = document.getElementById('Campo43')
         if (c43 === document.activeElement) {
-            if (Campo43.value.match(interval)) {
+            if (Campo43.value.match(interval) && Campo44.disabled == true) {
+                document.getElementById("Campo45").focus()
+            }
+            else if (Campo43.value.match(interval)) {
                 document.getElementById("Campo44").focus()
             }
         }
@@ -659,7 +665,10 @@ function verifica(Numero) {
         }
         let c61 = document.getElementById('Campo61')
         if (c61 === document.activeElement) {
-            if (Campo61.value.match(interval)) {
+            if (Campo61.value.match(interval) && Campo62.disabled == true) {
+                document.getElementById("Campo63").focus()
+            }
+            else if (Campo61.value.match(interval)) {
                 document.getElementById("Campo62").focus()
             }
         }
@@ -716,7 +725,10 @@ function verifica(Numero) {
         }
         let c73 = document.getElementById('Campo73')
         if (c73 === document.activeElement) {
-            if (Campo73.value.match(interval)) {
+            if (Campo73.value.match(interval) && Campo74.disabled == true) {
+                document.getElementById("Campo75").focus()
+            }
+            else if (Campo73.value.match(interval)) {
                 document.getElementById("Campo74").focus()
             }
         }
