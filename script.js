@@ -732,6 +732,12 @@ function verifica(Numero) {
                 document.getElementById("Campo76").focus()
             }
         }
+        let c76 = document.getElementById('Campo76')
+        if (c76 === document.activeElement) {
+            if (Campo76.value.match(interval)) {
+                document.getElementById("Campo77").focus()
+            }
+        }
         let c77 = document.getElementById('Campo77')
         if (c77 === document.activeElement) {
             if (Campo77.value.match(interval)) {
