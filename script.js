@@ -16,16 +16,16 @@ function verifica(Numero) {
             Campo10.disabled = true;
             Campo11.disabled = true;
 
-            Campo1.style = "border: solid #fa9905;"
-            Campo2.style = "border: solid #fa9905;"
-            Campo3.style = "border: solid #fa9905;"
-            Campo4.style = "border: solid #fa9905;"
-            Campo5.style = "border: solid #fa9905;"
-            Campo6.style = "border: solid #fa9905;"
-            Campo7.style = "border: solid #fa9905;"
-            Campo9.style = "border: solid #fa9905;"
-            Campo10.style = "border: solid #fa9905;"
-            Campo11.style = "border: solid #fa9905;"
+            Campo1.style = "border: solid #00ffdd;"
+            Campo2.style = "border: solid #00ffdd;"
+            Campo3.style = "border: solid #00ffdd;"
+            Campo4.style = "border: solid #00ffdd;"
+            Campo5.style = "border: solid #00ffdd;"
+            Campo6.style = "border: solid #00ffdd;"
+            Campo7.style = "border: solid #00ffdd;"
+            Campo9.style = "border: solid #00ffdd;"
+            Campo10.style = "border: solid #00ffdd;"
+            Campo11.style = "border: solid #00ffdd;"
 
         }
         let c1 = document.getElementById('Campo1')
@@ -110,19 +110,19 @@ function verifica(Numero) {
             Campo49.disabled = true;
             Campo59.disabled = true;
             Campo66.disabled = true;
-            Campo4.style = 'border: solid #fa9905;';
-            Campo15.style = 'border: solid #fa9905;';
-            Campo17.style = 'border: solid #fa9905;';
-            Campo19.style = 'border: solid #fa9905;';
-            Campo22.style = 'border: solid #fa9905;';
-            Campo25.style = 'border: solid #fa9905;';
-            Campo29.style = 'border: solid #fa9905;';
-            Campo35.style = 'border: solid #fa9905;';
-            Campo38.style = 'border: solid #fa9905;';
-            Campo44.style = 'border: solid #fa9905;';
-            Campo49.style = 'border: solid #fa9905;';
-            Campo59.style = 'border: solid #fa9905;';
-            Campo66.style = 'border: solid #fa9905;';
+            Campo4.style = 'border: solid #00ffdd;';
+            Campo15.style = 'border: solid #00ffdd;';
+            Campo17.style = 'border: solid #00ffdd;';
+            Campo19.style = 'border: solid #00ffdd;';
+            Campo22.style = 'border: solid #00ffdd;';
+            Campo25.style = 'border: solid #00ffdd;';
+            Campo29.style = 'border: solid #00ffdd;';
+            Campo35.style = 'border: solid #00ffdd;';
+            Campo38.style = 'border: solid #00ffdd;';
+            Campo44.style = 'border: solid #00ffdd;';
+            Campo49.style = 'border: solid #00ffdd;';
+            Campo59.style = 'border: solid #00ffdd;';
+            Campo66.style = 'border: solid #00ffdd;';
 
         }
         let c15 = document.getElementById('Campo15')
@@ -209,9 +209,9 @@ function verifica(Numero) {
             Campo12.disabled = true;
             Campo13.disabled = true;
             Campo14.disabled = true;
-            Campo12.style = 'border: solid #fa9905;';
-            Campo13.style = 'border: solid #fa9905;';
-            Campo14.style = 'border: solid #fa9905;';
+            Campo12.style = 'border: solid #00ffdd;';
+            Campo13.style = 'border: solid #00ffdd;';
+            Campo14.style = 'border: solid #00ffdd;';
             P9.style = 'color: #9acd32';
         }
 
@@ -249,20 +249,20 @@ function verifica(Numero) {
             Campo71.disabled = true;
             Campo74.disabled = true;
 
-            Campo13.style = "border: solid #fa9905;"
-            Campo16.style = "border: solid #fa9905;"
-            Campo18.style = "border: solid #fa9905;"
-            Campo21.style = "border: solid #fa9905;"
-            Campo23.style = "border: solid #fa9905;"
-            Campo26.style = "border: solid #fa9905;"
-            Campo32.style = "border: solid #fa9905;"
-            Campo39.style = "border: solid #fa9905;"
-            Campo47.style = "border: solid #fa9905;"
-            Campo64.style = "border: solid #fa9905;"
-            Campo68.style = "border: solid #fa9905;"
-            Campo70.style = "border: solid #fa9905;"
-            Campo71.style = "border: solid #fa9905;"
-            Campo74.style = "border: solid #fa9905;"
+            Campo13.style = "border: solid #00ffdd;"
+            Campo16.style = "border: solid #00ffdd;"
+            Campo18.style = "border: solid #00ffdd;"
+            Campo21.style = "border: solid #00ffdd;"
+            Campo23.style = "border: solid #00ffdd;"
+            Campo26.style = "border: solid #00ffdd;"
+            Campo32.style = "border: solid #00ffdd;"
+            Campo39.style = "border: solid #00ffdd;"
+            Campo47.style = "border: solid #00ffdd;"
+            Campo64.style = "border: solid #00ffdd;"
+            Campo68.style = "border: solid #00ffdd;"
+            Campo70.style = "border: solid #00ffdd;"
+            Campo71.style = "border: solid #00ffdd;"
+            Campo74.style = "border: solid #00ffdd;"
         }
 
         let c13 = document.getElementById('Campo13')
@@ -351,8 +351,8 @@ function verifica(Numero) {
         if (I7 == 'I7') {
             Campo19.disabled = true;
             Campo20.disabled = true;
-            Campo19.style = 'border: solid #fa9905;';
-            Campo20.style = 'border: solid #fa9905;';
+            Campo19.style = 'border: solid #00ffdd;';
+            Campo20.style = 'border: solid #00ffdd;';
 
         }
         let c19 = document.getElementById('Campo19')
@@ -369,9 +369,9 @@ function verifica(Numero) {
             Campo24.disabled = true;
             Campo28.disabled = true;
             Campo33.disabled = true;
-            Campo24.style = 'border: solid #fa9905;';
-            Campo28.style = 'border: solid #fa9905;';
-            Campo33.style = 'border: solid #fa9905;';
+            Campo24.style = 'border: solid #00ffdd;';
+            Campo28.style = 'border: solid #00ffdd;';
+            Campo33.style = 'border: solid #00ffdd;';
         }
         let c24 = document.getElementById('Campo24')
         if (c24 === document.activeElement) {
@@ -393,8 +393,8 @@ function verifica(Numero) {
         if (I5 == 'I5') {
             Campo26.disabled = true;
             Campo27.disabled = true;
-            Campo26.style = 'border: solid #fa9905;';
-            Campo27.style = 'border: solid #fa9905;';
+            Campo26.style = 'border: solid #00ffdd;';
+            Campo27.style = 'border: solid #00ffdd;';
             P13.style = 'color: #9acd32';
         }
 
@@ -407,9 +407,9 @@ function verifica(Numero) {
             Campo30.disabled = true;
             Campo31.disabled = true;
 
-            Campo29.style = 'border: solid #fa9905;';
-            Campo30.style = 'border: solid #fa9905;';
-            Campo31.style = 'border: solid #fa9905;';
+            Campo29.style = 'border: solid #00ffdd;';
+            Campo30.style = 'border: solid #00ffdd;';
+            Campo31.style = 'border: solid #00ffdd;';
 
 
         }
@@ -428,9 +428,9 @@ function verifica(Numero) {
             Campo33.disabled = true;
             Campo34.disabled = true;
             Campo35.disabled = true;
-            Campo33.style = 'border: solid #fa9905;';
-            Campo34.style = 'border: solid #fa9905;';
-            Campo35.style = 'border: solid #fa9905;';
+            Campo33.style = 'border: solid #00ffdd;';
+            Campo34.style = 'border: solid #00ffdd;';
+            Campo35.style = 'border: solid #00ffdd;';
 
         }
         let c33 = document.getElementById('Campo33')
@@ -458,11 +458,11 @@ function verifica(Numero) {
             Campo48.disabled = true;
             Campo58.disabled = true;
             Campo65.disabled = true;
-            Campo37.style = 'border: solid #fa9905;';
-            Campo42.style = 'border: solid #fa9905;';
-            Campo48.style = 'border: solid #fa9905;';
-            Campo58.style = 'border: solid #fa9905;';
-            Campo65.style = 'border: solid #fa9905;';
+            Campo37.style = 'border: solid #00ffdd;';
+            Campo42.style = 'border: solid #00ffdd;';
+            Campo48.style = 'border: solid #00ffdd;';
+            Campo58.style = 'border: solid #00ffdd;';
+            Campo65.style = 'border: solid #00ffdd;';
         }
         let c37 = document.getElementById('Campo37')
         if (c37 === document.activeElement) {
@@ -503,14 +503,14 @@ function verifica(Numero) {
             Campo45.disabled = true;
             Campo46.disabled = true;
 
-            Campo39.style = 'border: solid #fa9905;';
-            Campo40.style = 'border: solid #fa9905;';
-            Campo41.style = 'border: solid #fa9905;';
-            Campo42.style = 'border: solid #fa9905;';
-            Campo43.style = 'border: solid #fa9905;';
-            Campo44.style = 'border: solid #fa9905;';
-            Campo45.style = 'border: solid #fa9905;';
-            Campo46.style = 'border: solid #fa9905;';
+            Campo39.style = 'border: solid #00ffdd;';
+            Campo40.style = 'border: solid #00ffdd;';
+            Campo41.style = 'border: solid #00ffdd;';
+            Campo42.style = 'border: solid #00ffdd;';
+            Campo43.style = 'border: solid #00ffdd;';
+            Campo44.style = 'border: solid #00ffdd;';
+            Campo45.style = 'border: solid #00ffdd;';
+            Campo46.style = 'border: solid #00ffdd;';
         }
         let c39 = document.getElementById('Campo39')
         if (c39 === document.activeElement) {
@@ -569,9 +569,9 @@ function verifica(Numero) {
             Campo62.disabled = true;
             Campo67.disabled = true;
 
-            Campo50.style = 'border: solid #fa9905;';
-            Campo62.style = 'border: solid #fa9905;';
-            Campo67.style = 'border: solid #fa9905;';
+            Campo50.style = 'border: solid #00ffdd;';
+            Campo62.style = 'border: solid #00ffdd;';
+            Campo67.style = 'border: solid #00ffdd;';
         }
         let c50 = document.getElementById('Campo50')
         if (c50 === document.activeElement) {
@@ -597,13 +597,13 @@ function verifica(Numero) {
             Campo56.disabled = true;
             Campo57.disabled = true;
             Campo58.disabled = true;
-            Campo51.style = 'border: solid #fa9905;';
-            Campo52.style = 'border: solid #fa9905;';
-            Campo53.style = 'border: solid #fa9905;';
-            Campo54.style = 'border: solid #fa9905;';
-            Campo56.style = 'border: solid #fa9905;';
-            Campo57.style = 'border: solid #fa9905;';
-            Campo58.style = 'border: solid #fa9905;';        
+            Campo51.style = 'border: solid #00ffdd;';
+            Campo52.style = 'border: solid #00ffdd;';
+            Campo53.style = 'border: solid #00ffdd;';
+            Campo54.style = 'border: solid #00ffdd;';
+            Campo56.style = 'border: solid #00ffdd;';
+            Campo57.style = 'border: solid #00ffdd;';
+            Campo58.style = 'border: solid #00ffdd;';        
     }
     let c51 = document.getElementById('Campo51')
     if (c51 === document.activeElement) {
@@ -651,11 +651,11 @@ function verifica(Numero) {
             Campo61.disabled = true;
             Campo62.disabled = true;
             Campo63.disabled = true;
-            Campo59.style = 'border: solid #fa9905;';
-            Campo60.style = 'border: solid #fa9905;';
-            Campo61.style = 'border: solid #fa9905;';
-            Campo62.style = 'border: solid #fa9905;';
-            Campo63.style = 'border: solid #fa9905;';     
+            Campo59.style = 'border: solid #00ffdd;';
+            Campo60.style = 'border: solid #00ffdd;';
+            Campo61.style = 'border: solid #00ffdd;';
+            Campo62.style = 'border: solid #00ffdd;';
+            Campo63.style = 'border: solid #00ffdd;';     
         }
         let c60 = document.getElementById('Campo60')
         if (c60 === document.activeElement) {
@@ -685,8 +685,8 @@ function verifica(Numero) {
         if (CS == 'CS') {
             Campo69.disabled = true;
             Campo70.disabled = true;
-            Campo69.style = 'border: solid #fa9905;';
-            Campo70.style = 'border: solid #fa9905;';
+            Campo69.style = 'border: solid #00ffdd;';
+            Campo70.style = 'border: solid #00ffdd;';
         }
         let c69 = document.getElementById('Campo69')
         if (c69 === document.activeElement) {
@@ -707,14 +707,14 @@ function verifica(Numero) {
             Campo77.disabled = true;
             Campo78.disabled = true;
             Campo79.disabled = true;
-            Campo74.style = 'border: solid #fa9905;';
-            Campo72.style = 'border: solid #fa9905;';
-            Campo73.style = 'border: solid #fa9905;';
-            Campo75.style = 'border: solid #fa9905;';
-            Campo76.style = 'border: solid #fa9905;';
-            Campo77.style = 'border: solid #fa9905;';
-            Campo78.style = 'border: solid #fa9905;';
-            Campo79.style = 'border: solid #fa9905;';
+            Campo74.style = 'border: solid #00ffdd;';
+            Campo72.style = 'border: solid #00ffdd;';
+            Campo73.style = 'border: solid #00ffdd;';
+            Campo75.style = 'border: solid #00ffdd;';
+            Campo76.style = 'border: solid #00ffdd;';
+            Campo77.style = 'border: solid #00ffdd;';
+            Campo78.style = 'border: solid #00ffdd;';
+            Campo79.style = 'border: solid #00ffdd;';
             P16.style = 'color: #9acd32';
         }
         let c72 = document.getElementById('Campo72')
