@@ -49,14 +49,14 @@ function verifica(Numero) {
             }
         }
 
-
+        if (c3.value.match(interval)){
         let c4 = document.getElementById('Campo4')
         if (c4 === document.activeElement) {
             if (Campo4.value.match(interval)) {
                 document.getElementById("Campo5").focus()
             }
         }
-
+    }
         let c5 = document.getElementById('Campo5')
         if (c5 === document.activeElement) {
             if (Campo5.value.match(interval)) {
@@ -124,6 +124,13 @@ function verifica(Numero) {
             Campo59.style = 'border: solid #00ffdd;';
             Campo66.style = 'border: solid #00ffdd;';
 
+        }
+        let c4 = document.getElementById('Campo4')
+        let c3 = document.getElementById('Campo3')
+        if (c3.value == '') {
+            if (c4 === document.activeElement) {
+                document.getElementById("Campo15").focus()
+            }
         }
         let c15 = document.getElementById('Campo15')
         if (c15 === document.activeElement) {
@@ -212,19 +219,24 @@ function verifica(Numero) {
             Campo12.style = 'border: solid #00ffdd;';
             Campo13.style = 'border: solid #00ffdd;';
             Campo14.style = 'border: solid #00ffdd;';
-            P9.style = 'color: #9acd32';
+            
         }
 
         let c12 = document.getElementById('Campo12')
         if (c12 === document.activeElement) {
-            if (Campo12.value.match(interval)) {
+            if (Campo12.value.match(interval) && Campo13.disabled == true) {
+                document.getElementById("Campo14").focus()
+            }   
+            else if (Campo12.value.match(interval)) {
                 document.getElementById("Campo13").focus()
             }
         }
-        let c13 = document.getElementById('Campo13')
-        if (c13 === document.activeElement) {
-            if (Campo13.value.match(interval)) {
-                document.getElementById("Campo14").focus()
+        if (c12.value.match(interval)){
+            let c13 = document.getElementById('Campo13')
+            if (c13 === document.activeElement) {
+                if (Campo13.value.match(interval)) {
+                    document.getElementById("Campo14").focus()
+                }
             }
         }
 
@@ -266,11 +278,14 @@ function verifica(Numero) {
         }
 
         let c13 = document.getElementById('Campo13')
+        let c12 = document.getElementById('Campo12')
+        if (c12.value === '') {
         if (c13 === document.activeElement) {
             if (Campo13.value.match(interval)) {
                 document.getElementById("Campo16").focus()
             }
         }
+    }
         let c16 = document.getElementById('Campo16')
         if (c16 === document.activeElement) {
             if (Campo16.value.match(interval)) {
