@@ -49,14 +49,14 @@ function verifica(Numero) {
             }
         }
 
-        if (c3.value.match(interval)){
-        let c4 = document.getElementById('Campo4')
-        if (c4 === document.activeElement) {
-            if (Campo4.value.match(interval)) {
-                document.getElementById("Campo5").focus()
+        if (c3.value.match(interval)) {
+            let c4 = document.getElementById('Campo4')
+            if (c4 === document.activeElement) {
+                if (Campo4.value.match(interval)) {
+                    document.getElementById("Campo5").focus()
+                }
             }
         }
-    }
         let c5 = document.getElementById('Campo5')
         if (c5 === document.activeElement) {
             if (Campo5.value.match(interval)) {
@@ -146,13 +146,14 @@ function verifica(Numero) {
             }
         }
 
-        let c19 = document.getElementById('Campo19')
-        if (c19 === document.activeElement) {
-            if (Campo19.value.match(interval)) {
-                document.getElementById("Campo22").focus()
+        if (c17.value.match(interval)) {
+            let c19 = document.getElementById('Campo19')
+            if (c19 === document.activeElement) {
+                if (Campo19.value.match(interval)) {
+                    document.getElementById("Campo22").focus()
+                }
             }
         }
-
 
         let c22 = document.getElementById('Campo22')
         if (c22 === document.activeElement) {
@@ -167,11 +168,12 @@ function verifica(Numero) {
                 document.getElementById("Campo29").focus()
             }
         }
-
-        let c29 = document.getElementById('Campo29')
-        if (c29 === document.activeElement) {
-            if (Campo29.value.match(interval)) {
-                document.getElementById("Campo35").focus()
+        if (c25.value.match(interval)) {
+            let c29 = document.getElementById('Campo29')
+            if (c29 === document.activeElement) {
+                if (Campo29.value.match(interval)) {
+                    document.getElementById("Campo35").focus()
+                }
             }
         }
 
@@ -188,11 +190,12 @@ function verifica(Numero) {
                 document.getElementById("Campo44").focus()
             }
         }
-
-        let c44 = document.getElementById('Campo44')
-        if (c44 === document.activeElement) {
-            if (Campo44.value.match(interval)) {
-                document.getElementById("Campo49").focus()
+        if (c38.value.match(interval)) {
+            let c44 = document.getElementById('Campo44')
+            if (c44 === document.activeElement) {
+                if (Campo44.value.match(interval)) {
+                    document.getElementById("Campo49").focus()
+                }
             }
         }
 
@@ -202,13 +205,14 @@ function verifica(Numero) {
                 document.getElementById("Campo59").focus()
             }
         }
-        let c59 = document.getElementById('Campo59')
-        if (c59 === document.activeElement) {
-            if (Campo59.value.match(interval)) {
-                document.getElementById("Campo66").focus()
+        if (c49.value.match(interval)) {
+            let c59 = document.getElementById('Campo59')
+            if (c59 === document.activeElement) {
+                if (Campo59.value.match(interval)) {
+                    document.getElementById("Campo66").focus()
+                }
             }
         }
-
     }
     else if (num == 2) {
         var DMA = (Campo12.value + Campo13.value + Campo14.value).toUpperCase();
@@ -219,19 +223,19 @@ function verifica(Numero) {
             Campo12.style = 'border: solid #00ffdd;';
             Campo13.style = 'border: solid #00ffdd;';
             Campo14.style = 'border: solid #00ffdd;';
-            
+
         }
 
         let c12 = document.getElementById('Campo12')
         if (c12 === document.activeElement) {
             if (Campo12.value.match(interval) && Campo13.disabled == true) {
                 document.getElementById("Campo14").focus()
-            }   
+            }
             else if (Campo12.value.match(interval)) {
                 document.getElementById("Campo13").focus()
             }
         }
-        if (c12.value.match(interval)){
+        if (c12.value.match(interval)) {
             let c13 = document.getElementById('Campo13')
             if (c13 === document.activeElement) {
                 if (Campo13.value.match(interval)) {
@@ -280,12 +284,12 @@ function verifica(Numero) {
         let c13 = document.getElementById('Campo13')
         let c12 = document.getElementById('Campo12')
         if (c12.value === '') {
-        if (c13 === document.activeElement) {
-            if (Campo13.value.match(interval)) {
-                document.getElementById("Campo16").focus()
+            if (c13 === document.activeElement) {
+                if (Campo13.value.match(interval)) {
+                    document.getElementById("Campo16").focus()
+                }
             }
         }
-    }
         let c16 = document.getElementById('Campo16')
         if (c16 === document.activeElement) {
             if (Campo16.value.match(interval)) {
@@ -310,10 +314,12 @@ function verifica(Numero) {
                 document.getElementById("Campo26").focus()
             }
         }
-        let c26 = document.getElementById('Campo26')
-        if (c26 === document.activeElement) {
-            if (Campo26.value.match(interval)) {
-                document.getElementById("Campo32").focus()
+        if (c23.value.match(interval)) {
+            let c26 = document.getElementById('Campo26')
+            if (c26 === document.activeElement) {
+                if (Campo26.value.match(interval)) {
+                    document.getElementById("Campo32").focus()
+                }
             }
         }
         let c32 = document.getElementById('Campo32')
@@ -322,10 +328,12 @@ function verifica(Numero) {
                 document.getElementById("Campo39").focus()
             }
         }
-        let c39 = document.getElementById('Campo39')
-        if (c39 === document.activeElement) {
-            if (Campo39.value.match(interval)) {
-                document.getElementById("Campo47").focus()
+        if (c32.value.match(interval)) {
+            let c39 = document.getElementById('Campo39')
+            if (c39 === document.activeElement) {
+                if (Campo39.value.match(interval)) {
+                    document.getElementById("Campo47").focus()
+                }
             }
         }
         let c47 = document.getElementById('Campo47')
@@ -370,13 +378,16 @@ function verifica(Numero) {
             Campo20.style = 'border: solid #00ffdd;';
 
         }
-        let c19 = document.getElementById('Campo19')
-        if (c19 === document.activeElement) {
-            if (Campo19.value.match(interval)) {
-                document.getElementById("Campo20").focus()
+        let c17 = document.getElementById('Campo17')
+        if (c17.value == '') {
+            let c19 = document.getElementById('Campo19')
+            if (c19 === document.activeElement) {
+                if (Campo19.value.match(interval)) {
+                    document.getElementById("Campo20").focus()
+                }
             }
         }
-        
+
     }
     else if (num == 5) {
         var CPU = (Campo24.value + Campo28.value + Campo33.value).toUpperCase();
@@ -400,7 +411,7 @@ function verifica(Numero) {
                 document.getElementById("Campo33").focus()
             }
         }
-      
+
     }
 
     else if (num == 6) {
@@ -411,6 +422,16 @@ function verifica(Numero) {
             Campo26.style = 'border: solid #00ffdd;';
             Campo27.style = 'border: solid #00ffdd;';
             P13.style = 'color: #9acd32';
+        }
+
+        let c23 = document.getElementById('Campo23')
+        if (c23.value == '') {
+            let c26 = document.getElementById('Campo26')
+            if (c26 === document.activeElement) {
+                if (Campo26.value.match(interval)) {
+                    document.getElementById("Campo27").focus()
+                }
+            }
         }
 
     }
@@ -427,6 +448,15 @@ function verifica(Numero) {
             Campo31.style = 'border: solid #00ffdd;';
 
 
+        }
+        let c25 = document.getElementById('Campo25')
+        if (c25.value == '') {
+            let c29 = document.getElementById('Campo29')
+            if (c29 === document.activeElement) {
+                if (Campo29.value.match(interval)) {
+                    document.getElementById("Campo30").focus()
+                }
+            }
         }
         let c30 = document.getElementById('Campo30')
         if (c30 === document.activeElement) {
@@ -485,10 +515,12 @@ function verifica(Numero) {
                 document.getElementById("Campo42").focus()
             }
         }
-        let c42 = document.getElementById('Campo42')
-        if (c42 === document.activeElement) {
-            if (Campo42.value.match(interval)) {
-                document.getElementById("Campo48").focus()
+        if(c37.value.match(interval)){
+            let c42 = document.getElementById('Campo42')
+            if (c42 === document.activeElement) {
+                if (Campo42.value.match(interval)) {
+                    document.getElementById("Campo48").focus()
+                }
             }
         }
         let c48 = document.getElementById('Campo48')
@@ -503,7 +535,7 @@ function verifica(Numero) {
                 document.getElementById("Campo65").focus()
             }
         }
-     
+
     }
     else if (num == 10) {
         var DUALCORE = (Campo39.value + Campo40.value + Campo41.value + Campo42.value + Campo43.value + Campo44.value +
@@ -527,10 +559,13 @@ function verifica(Numero) {
             Campo45.style = 'border: solid #00ffdd;';
             Campo46.style = 'border: solid #00ffdd;';
         }
-        let c39 = document.getElementById('Campo39')
-        if (c39 === document.activeElement) {
-            if (Campo39.value.match(interval)) {
-                document.getElementById("Campo40").focus()
+        let c32 = document.getElementById('Campo32')
+        if (c32.value == '') {
+            let c39 = document.getElementById('Campo39')
+            if (c39 === document.activeElement) {
+                if (Campo39.value.match(interval)) {
+                    document.getElementById("Campo40").focus()
+                }
             }
         }
         let c40 = document.getElementById('Campo40')
@@ -548,10 +583,13 @@ function verifica(Numero) {
                 document.getElementById("Campo42").focus()
             }
         }
-        let c42 = document.getElementById('Campo42')
-        if (c42 === document.activeElement) {
-            if (Campo42.value.match(interval)) {
-                document.getElementById("Campo43").focus()
+        let c37 = document.getElementById('Campo37')
+        if (c37.value == '') {
+            let c42 = document.getElementById('Campo42')
+            if (c42 === document.activeElement) {
+                if (Campo42.value.match(interval)) {
+                    document.getElementById("Campo43").focus()
+                }
             }
         }
         let c43 = document.getElementById('Campo43')
@@ -563,10 +601,14 @@ function verifica(Numero) {
                 document.getElementById("Campo44").focus()
             }
         }
+
+        let c38 = document.getElementById('Campo38')
         let c44 = document.getElementById('Campo44')
-        if (c44 === document.activeElement) {
-            if (Campo44.value.match(interval)) {
-                document.getElementById("Campo45").focus()
+        if (c38.value == '') {
+            if (c44 === document.activeElement) {
+                if (Campo44.value.match(interval)) {
+                    document.getElementById("Campo45").focus()
+                }
             }
         }
         let c45 = document.getElementById('Campo45')
@@ -594,15 +636,17 @@ function verifica(Numero) {
                 document.getElementById("Campo62").focus()
             }
         }
-        let c62 = document.getElementById('Campo62')
-        if (c62 === document.activeElement) {
-            if (Campo62.value.match(interval)) {
-                document.getElementById("Campo67").focus()
+        if (c50.value.match(interval)) {
+            let c62 = document.getElementById('Campo62')
+            if (c62 === document.activeElement) {
+                if (Campo62.value.match(interval)) {
+                    document.getElementById("Campo67").focus()
+                }
             }
         }
     }
     else if (num == 12) {
-        var DATABUS = (Campo51.value + Campo52.value + Campo53.value + Campo54.value + Campo56.value + 
+        var DATABUS = (Campo51.value + Campo52.value + Campo53.value + Campo54.value + Campo56.value +
             Campo57.value + Campo58.value).toUpperCase();
         if (DATABUS == 'DATABUS') {
             Campo51.disabled = true;
@@ -618,15 +662,15 @@ function verifica(Numero) {
             Campo54.style = 'border: solid #00ffdd;';
             Campo56.style = 'border: solid #00ffdd;';
             Campo57.style = 'border: solid #00ffdd;';
-            Campo58.style = 'border: solid #00ffdd;';        
-    }
-    let c51 = document.getElementById('Campo51')
-    if (c51 === document.activeElement) {
-        if (Campo51.value.match(interval)) {
-            document.getElementById("Campo52").focus()
+            Campo58.style = 'border: solid #00ffdd;';
         }
-    }
-    let c52 = document.getElementById('Campo52')
+        let c51 = document.getElementById('Campo51')
+        if (c51 === document.activeElement) {
+            if (Campo51.value.match(interval)) {
+                document.getElementById("Campo52").focus()
+            }
+        }
+        let c52 = document.getElementById('Campo52')
         if (c52 === document.activeElement) {
             if (Campo52.value.match(interval)) {
                 document.getElementById("Campo53").focus()
@@ -656,7 +700,7 @@ function verifica(Numero) {
                 document.getElementById("Campo58").focus()
             }
         }
-}
+    }
 
     else if (num == 13) {
         var EPROM = (Campo59.value + Campo60.value + Campo61.value + Campo62.value + Campo63.value).toUpperCase();
@@ -670,7 +714,17 @@ function verifica(Numero) {
             Campo60.style = 'border: solid #00ffdd;';
             Campo61.style = 'border: solid #00ffdd;';
             Campo62.style = 'border: solid #00ffdd;';
-            Campo63.style = 'border: solid #00ffdd;';     
+            Campo63.style = 'border: solid #00ffdd;';
+        }
+
+        let c49 = document.getElementById('Campo49')
+        if (c49.value == '') {
+            let c59 = document.getElementById('Campo59')
+            if (c59 === document.activeElement) {
+                if (Campo59.value.match(interval)) {
+                    document.getElementById("Campo60").focus()
+                }
+            }
         }
         let c60 = document.getElementById('Campo60')
         if (c60 === document.activeElement) {
@@ -687,13 +741,15 @@ function verifica(Numero) {
                 document.getElementById("Campo62").focus()
             }
         }
+        let c50 = document.getElementById('Campo50')
         let c62 = document.getElementById('Campo62')
-        if (c62 === document.activeElement) {
-            if (Campo62.value.match(interval)) {
-                document.getElementById("Campo63").focus()
+        if (c50.value == '') {
+            if (c62 === document.activeElement) {
+                if (Campo62.value.match(interval)) {
+                    document.getElementById("Campo63").focus()
+                }
             }
         }
-        
     }
     else if (num == 14) {
         var CS = (Campo69.value + Campo70.value).toUpperCase();

@@ -34,16 +34,16 @@ body{
     animation: go-back 4s  alternate ;
 }
 
-@keyframes go-back {
+/* @keyframes go-back {
     from {
-      transform: translateX(-90%);
+      transform: translateX(-20%);
     }
     to {
       transform: translateX(0%);
       transition: 2s;
     }
   }
-
+ */
 input {
     margin: 0;
     width: 26px;
