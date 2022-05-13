@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,200&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #212121;
+
+}
+
+.tela_inicial {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#div_perguntas img {
+  width: 12% !important;
+  height: auto !important;
+  position: absolute;
+  cursor: pointer;
+}
+
+#arrow_r {
+  left: 84%;
+}
+
+#arrow_l {
+  transform: rotateY(180deg);
+  left: 3%;
+}
+
+
+#div_perguntas {
+  background-color: white;
+  width: 30%;
+  margin-left: 5%;
+  height: 30%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  position: relative;
+  animation: go-back-pergunta 4s alternate;
+}
+
+
+.div_principal {
+  width: 50%;
+  height: 97%;
+  display: flex;
+  align-items: center;
+  background: #323232;
+  border-radius: 12%;
+  border: 2px #16689e outset;
+  box-shadow: #16689e 0px 2px 4px, #16689e8e 0px 7px 13px -3px, #16689ec9 0px -3px 0px inset;
+  animation: go-back-main 4s alternate;
+}
+
+@keyframes go-back-main {
+  from {
+    transform: translateX(-20%);
+  }
+
+  to {
+    transform: translateX(0%);
+    transition: 2s;
+  }
+}
+
+@keyframes go-back-pergunta {
+  from {
+    transform: translateX(-25%);
+  }
+
+  to {
+    transform: translateX(0%);
+    transition: 2s;
+  }
+}
+
+input {
+  margin: 0;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+  border: solid #393e463d;
+  background-color: #16689e;
+  border-radius: 10%;
+  box-shadow: #f2f7fc9f 0.8px 0.8px;
+  font-size: 22px;
+}
+
+input::placeholder {
+  font-size: 16px;
+  color: #252525;
+}
+
+input:disabled {
+  color: #252525;
+  background-color: #ffffff;
+}
+
+td {
+  float: left;
+
+}
+
+.espaco {
+  background-color: #e986e1 !important;
+
+}
+
+.Desativado {
+  background-color: #00000000 !important;
+  border: solid #00000000 !important;
+  box-shadow: #00000000 0px 0px;
+}
