@@ -277,30 +277,62 @@ function validar_pergunta() {
 }
 
 c = 0
-f_v = 0
+c = 0
+fa = 0
+fv = 0
 
 function avancar() {
+    fa++;
 
-    c++
-    h2_num.innerHTML = lista_num[c]
-    h2_pergunta.innerHTML = lista_pergunta[c]
-    if (c == lista_pergunta.length - 1) {
-        c = -1
+    if(fv == 0){
+        c++
+        h2_num.innerHTML = lista_num[c]
+        h2_pergunta.innerHTML = lista_pergunta[c]
+        if (c == lista_pergunta.length - 1) {
+            c = -1
+        }
+        console.log(c);
     }
-    console.log(c);
+
+    else{
+        c++
+        h2_num.innerHTML = lista_num[c]
+        h2_pergunta.innerHTML = lista_pergunta[c]
+        if (c == lista_pergunta.length - 1) {
+            c = -1
+        }
+    }
+
+
+    fv = 0;
 
     validar_pergunta();
 
 }
 
 function voltar() {
-    if (c == -1) {
-        c = lista_pergunta.length - 1;
-    }
-    console.log(c)
-    h2_num.innerHTML = lista_num[c]
-    h2_pergunta.innerHTML = lista_pergunta[c]
-    c--
+    fv++;
 
+    if(fa == 0){
+        if (c == -1) {
+            c = lista_pergunta.length - 1;
+        }
+        console.log(c)
+        h2_num.innerHTML = lista_num[c]
+        h2_pergunta.innerHTML = lista_pergunta[c]
+        c--
+    }
+    else{
+        c--
+        if (c == -1) {
+            c = lista_pergunta.length - 1;
+        }
+        console.log(c)
+        h2_num.innerHTML = lista_num[c]
+        h2_pergunta.innerHTML = lista_pergunta[c]
+        c--
+    }
+
+    fa = 0;
     validar_pergunta();
 }
