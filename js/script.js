@@ -509,12 +509,27 @@ function verifica(Numero) {
             Campo58.style = 'border: solid #00ffdd;';
             Campo65.style = 'border: solid #00ffdd;';
         }
-        let c37 = document.getElementById('Campo37')
-        if (c37 === document.activeElement) {
-            if (Campo37.value.match(interval)) {
-                document.getElementById("Campo42").focus()
+
+        let c42 = document.getElementById('Campo42')
+        if(c42.disabled){
+            
+            let c37 = document.getElementById('Campo37')
+            if (c37 === document.activeElement) {
+                if (Campo37.value.match(interval)) {
+                    document.getElementById("Campo48").focus()
+                }
             }
         }
+        else{
+            let c37 = document.getElementById('Campo37')
+            if (c37 === document.activeElement) {
+                if (Campo37.value.match(interval)) {
+                    document.getElementById("Campo42").focus()
+                }
+            }
+        }
+        
+        let c37 = document.getElementById('Campo37')
         if(c37.value.match(interval)){
             let c42 = document.getElementById('Campo42')
             if (c42 === document.activeElement) {
@@ -834,4 +849,9 @@ function verifica(Numero) {
             }
         }
     }
+
+    validar_pergunta();
+
 }
+
+

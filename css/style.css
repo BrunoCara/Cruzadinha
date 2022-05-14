@@ -21,6 +21,7 @@ body {
   height: auto !important;
   position: absolute;
   cursor: pointer;
+  top: 0;
 }
 
 #arrow_r {
